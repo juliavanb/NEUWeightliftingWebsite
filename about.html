@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Northeastern University Olympic-Weightlifting Club</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Merriweather&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
 
+        <h1>About Us</h1>
+    </section>
+
+    <!--about us content-->
+
+    <section class = "e-Board">
+        <div class = "heading">
+            <h1>Executive Board</h1>
+            <p>Meet the 2022 Weightlifting E-board!</p>
+        </div>
+
+        <div class = "members">
+            <div class = "member">
+                <img src="images/sam.jpg" alt="Sam Allegretti">
+                <h1>Sam Allegretti</h1>
+                <h2>Captain</h2>
+                <p>Sam is </p>
+            </div>
+            <div class = "member">
+                <img src="images/matt.jpg" alt="Matthew Tung">
+                <h1>Matthew Tung</h1>
+                <h2>President</h2>
+                <p>Matt is a third-year health sciences major etc.</p>
+            </div>
+            <div class = "member">
+                <img src="images/person_icon.jpg" alt="Christian">
+                <h1>Christian</h1>
+                <h2>Vice President</h2>
+                <p>Christian is etctec</p>
+            </div>
+            <div class = "member">
+                <img src="images/thane.jpg" alt="Thane Gallo">
+                <h1>Thane Gallo</h1>
+                <h2>Secretary</h2>
+                <p>Thane is a third-year electrical engineering major etcect</p>
+            </div>
+            <div class = "member">
+                <img src="images/person_icon.jpg" alt="Holly Lewis">
+                <h1>Holly Lewis</h1>
+                <h2>Fundraising Chair</h2>
+                <p>Holly is a second-year mechanical engineering and physics major. She started olympic lifting in the Spring of 2021 and has been on the team since it's creation in September 2021. Outside of weightlifting she is in AeroNU and Tau Beta Pi.</p>
+            </div>
+            <div class = "member">
+                <img src="images/person_icon.jpg" alt="Julia VanBurger">
+                <h1>Julia VanBurger</h1>
+                <h2>Marketing Chair</h2>
+                <p>Julia is a third-year computer engineering and physics major. She started weightlifting in September when the team first started. As marketing chair she is involved in the media presence of the team, for example, this website! Outside of weightlifting she is a member of the concert band and enjoys longboarding.</p>
+            </div>
+        </div>
+
+        <div class = "heading">
+            <h1>Coaches</h1>
+        </div>
+
+        <div class = "members">
+            <div class = "member">
+                <img src="images/kate.jpg" alt="Kate Driscoll">
+                <h1>Kate Driscoll</h1>
+                <h2>Coach</h2>
+                <p>Kate is etcetc</p>
+            </div>
+            <div class = "member">
+                <img src="images/cheryl.png" alt="Cheryl Haworth">
+                <h1>Cheryl Haworth</h1>
+                <h2>Coach</h2>
+                <p>Cheryl is etcetc</p>
+            </div>
+            <div class = "member">
+                <img src="images/person_icon.jpg" alt="Meghan Beck">
+                <h1>Meghan Beck</h1>
+                <h2>Coach</h2>
+                <p>Meghan is a Northeastern 2021 alumni with a B.S. in Health Sciences. Meghan started lifting when she was 16  </p>
+            </div>
+            <div class = "member">
+                <img src="images/person_icon.jpg" alt="Meghan Beck">
+                <h1>Michael Khalil</h1>
+                <h2>Coach</h2>
+                <p>Mike is a 2021 Northeastern Alumni, 
+                he got his B.S. in computer science. 
+                He is a 2x USAPL Collegiate Nationals Medalist as well as an NUPL Member 
+                from 2016 to 2021 who just enjoys seeing his friends get strong and loves 
+                making friends through strength sports.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-----JavaScript for Toggle Menu ------>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>
